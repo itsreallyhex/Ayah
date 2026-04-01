@@ -8,7 +8,7 @@ from the Quran or an authentic Hadith from Prophet Muhammad SAW.
 
 ## Installation
 1. Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
-2. Download `Ayah.dll` from the Releases page
+2. Download `Ayah.dll` from the [Releases](https://github.com/itsreallyhex/Ayah/releases) page
 3. Drop it into your `BepInEx/plugins` folder
 4. Launch the game
 
