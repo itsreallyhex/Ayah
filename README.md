@@ -1,10 +1,10 @@
 # Ayah 
 A Gorilla Tag BepInEx mod that replaces the Message of the Day with a random 
-Quranic verse or authentic Hadith every time you load in.
+Quranic verse or authentic Hadith every time you load in. 
 
 ## What it does
 Every time you enter the game, the MOTD board displays a randomly selected verse 
-from the Quran or an authentic Hadith from Prophet Muhammad SAW.
+from the Quran or an authentic Hadith from Prophet Muhammad SAW. Over 50 hadiths and quran verse 
 
 ## Installation
 1. Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
