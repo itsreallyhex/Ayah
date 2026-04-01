@@ -6,7 +6,7 @@ Quranic verse or authentic Hadith every time you load in.
 
 ## What it does
 Every time you enter the game, the MOTD board displays a randomly selected verse 
-from the Quran or an authentic Hadith from Prophet Muhammad SAW. Over 50 hadiths and quran verse 
+from the Quran or an authentic Hadith from Prophet Muhammad SAW. Currently includes 40+ Quranic verses and authentic Hadiths
 
 ## Installation
 1. Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
