@@ -113,14 +113,6 @@ namespace Ayah
             var textBox = Traverse.Create(__instance)
                                   .Field("textBox")
                                   .GetValue<TextMeshPro>();
-            foreach (var field in __instance.GetType().GetFields(
-          System.Reflection.BindingFlags.NonPublic |
-          System.Reflection.BindingFlags.Instance |
-          System.Reflection.BindingFlags.Public))
-            {
-                BepInEx.Logging.Logger.CreateLogSource("Ayah").LogInfo($"Field: {field.Name}");
-            }
-
 
             if (textBox == null) return true;
 
