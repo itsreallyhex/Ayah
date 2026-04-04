@@ -54,6 +54,16 @@ namespace Ayah
             "\"And strive for Allah with the striving due to Him.\" – Quran 22:78",
             "\"My Lord, increase me in knowledge.\" – Quran 20:114",
             "\"Verily, the most noble of you in the sight of Allah is the most righteous.\" – Quran 49:13",
+            "\"And He gives you from all you ask of Him.\" – Quran 14:34",
+            "\"So be patient. Indeed, the promise of Allah is truth.\" – Quran 30:60",
+            "\"And your Lord is going to give you, and you will be satisfied.\" – Quran 93:5",
+            "\"And whoever relies upon Allah – then He is sufficient for him.\" – Quran 65:3",
+            "\"And it may be that you dislike a thing which is good for you.\" – Quran 2:216",
+            "\"Indeed, Allah does not allow to be lost the reward of the doers of good.\" – Quran 9:120",
+            "\"Call upon Me; I will respond to you.\" – Quran 40:60",
+            "\"And when I am ill, it is He who cures me.\" – Quran 26:80",
+            "\"He releases them from their heavy burdens and the shackles that were upon them.\" – Quran 7:157",
+            "\"Indeed, the mercy of Allah is near to the doers of good.\" – Quran 7:56",
 
             // ─── HADITH ───────────────────────────────────────────────
             "\"Actions are judged by intentions.\" – Prophet Muhammad SAW (Bukhari)",
@@ -76,6 +86,16 @@ namespace Ayah
             "\"Do not belittle any act of kindness, even greeting your brother with a cheerful face.\" – Prophet Muhammad SAW (Muslim)",
             "\"Part of the perfection of one's Islam is leaving what does not concern him.\" – Prophet Muhammad SAW (Tirmidhi)",
             "\"Whoever takes a path seeking knowledge, Allah makes easy for him a path to Paradise.\" – Prophet Muhammad SAW (Muslim)",
+            "\"The world is a prison for the believer and a paradise for the disbeliever.\" – Prophet Muhammad SAW (Muslim)",
+            "\"Whoever is not thankful to people is not thankful to Allah.\" – Prophet Muhammad SAW (Abu Dawud, Tirmidhi)",
+            "\"A strong believer is better and more beloved to Allah than a weak believer.\" – Prophet Muhammad SAW (Muslim)",
+            "\"Take advantage of five before five: your youth before your old age, your health before your illness, your wealth before your poverty, your free time before your busyness, and your life before your death.\" – Prophet Muhammad SAW (Hakim, authenticated)",
+            "\"The best charity is that given when you are in need and fear poverty.\" – Prophet Muhammad SAW (Bukhari)",
+            "\"Allah is gentle and loves gentleness in all matters.\" – Prophet Muhammad SAW (Bukhari)",
+            "\"Make use of good health before sickness, and of life before death.\" – Prophet Muhammad SAW (Bukhari)",
+            "\"Do not be angry.\" (repeated three times) – Prophet Muhammad SAW (Bukhari)",
+            "\"None of you has faith until his desires follow what I have come with.\" – Prophet Muhammad SAW (Nawawi, authenticated)",
+            "\"Every act of goodness is charity.\" – Prophet Muhammad SAW (Muslim)",
         };
 
         private void Awake()
@@ -113,3 +133,4 @@ namespace Ayah
         }
     }
 }
+    
