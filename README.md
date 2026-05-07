@@ -5,21 +5,32 @@ Quranic verse or authentic Hadith every time you load in.
 
 
 ## What it does
-Every time you enter the game, the MOTD board displays a randomly selected verse 
-from the Quran or an authentic Hadith from Prophet Muhammad SAW. Currently includes 40+ Quranic verses and authentic Hadiths
+Every time you enter the game, the MOTD board shows a randomly selected verse from the Quran or an authentic Hadith from Prophet Muhammad SAW.
+Currently includes 32 Quranic verses and 34 authentic Hadiths — and the list grows with contributions.
+
 
 ## Installation
 1. Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
-2. Download `Ayah.dll` from the [Releases](https://github.com/itsreallyhex/Ayah/releases) page, along side `ayah.json` 
-3. Drop it into your `BepInEx/plugins` folder
+2. Download `Ayah.dll` and `ayahs.json` from the [Releases](../../releases) page
+3. Drop **both files** into your `BepInEx/plugins` folder — they must stay in the same folder or the mod won't read the data
 4. Launch the game
 
-> **Note:**
-> You will need the json and dll in same folder for it to be read. other than that it won't work.     
-> everytime i add anything you will need to update it manually by reinstalling it
+> When a new version adds more verses or Hadiths, you only need to replace `ayahs.json` — no need to reinstall the DLL.
+
 
 ## Want to contribute?
-You can add more Quran verses or Hadiths by editing the `Ayahs` array in `Plugin.cs`.
+You can add Quran verses or Hadiths by editing `ayahs.json` directly. The file has two arrays: `"quran"` and `"hadith"`. Add your entry to whichever fits, following this format:
+
+```json
+"\"Your text here.\" - Source reference"
+```
+
+For example:
+```json
+"\"Whoever removes a worldly hardship from a believer, Allah will remove from him a hardship on the Day of Resurrection.\" - Prophet Muhammad SAW (Muslim)"
+```
+
+
 
 **Rules:**
 - Hadiths must be Sahih — sourced from Bukhari, Muslim, or Tirmidhi
@@ -28,7 +39,7 @@ You can add more Quran verses or Hadiths by editing the `Ayahs` array in `Plugin
 - Check for duplicates before adding
 
 ## License
-This project is licensed under **GPL v3** — if you build on top of this, 
+This project is licensed under [GPL v3](https://github.com/itsreallyhex/Ayah/blob/master/LICENSE) — if you build on top of this, 
 keep it open source.
 
 ## Author
