@@ -10,9 +10,13 @@ from the Quran or an authentic Hadith from Prophet Muhammad SAW. Currently inclu
 
 ## Installation
 1. Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
-2. Download `Ayah.dll` from the [Releases](https://github.com/itsreallyhex/Ayah/releases) page
+2. Download `Ayah.dll` from the [Releases](https://github.com/itsreallyhex/Ayah/releases) page, along side `ayah.json` 
 3. Drop it into your `BepInEx/plugins` folder
 4. Launch the game
+
+> **Note:**
+> You will need the json and dll in same folder for it to be read. other then that it won't work
+> everytime i add anything you will need to updated it manually by reinstalling it
 
 ## Want to contribute?
 You can add more Quran verses or Hadiths by editing the `Ayahs` array in `Plugin.cs`.
