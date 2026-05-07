@@ -15,8 +15,8 @@ from the Quran or an authentic Hadith from Prophet Muhammad SAW. Currently inclu
 4. Launch the game
 
 > **Note:**
-> You will need the json and dll in same folder for it to be read. other then that it won't work.     
-> everytime i add anything you will need to updated it manually by reinstalling it
+> You will need the json and dll in same folder for it to be read. other than that it won't work.     
+> everytime i add anything you will need to update it manually by reinstalling it
 
 ## Want to contribute?
 You can add more Quran verses or Hadiths by editing the `Ayahs` array in `Plugin.cs`.
