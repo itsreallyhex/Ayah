@@ -7,12 +7,12 @@ Quranic verse or authentic Hadith every time you load in.
 
 ## What it does
 Every time you enter the game, the MOTD board shows a randomly selected verse from the Quran or an authentic Hadith from Prophet Muhammad SAW.
-Currently includes 32 Quranic verses and 34 authentic Hadiths — and the list grows with contributions.
+Currently includes 50 Quranic verses and 45 authentic Hadiths — and the list grows with contributions.
 
 
 ## Installation
 1. Make sure you have [BepInEx](https://github.com/BepInEx/BepInEx) installed
-2. Download `Ayah.dll` and `ayahs.json` from the [Releases](../../releases) page
+2. Download `Ayah.dll` and `ayahs.json` from the [Releases](https://github.com/itsreallyhex/Ayah/releases) page
 3. Drop **both files** into your `BepInEx/plugins` folder — they must stay in the same folder or the mod won't read the data
 4. Launch the game
 
